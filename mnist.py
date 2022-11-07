@@ -21,6 +21,8 @@ mut_am = 7.5
 simd = {0:set(), 1: set([7]), 2: set(), 3:{8,9}, 4:set(), 5:set([6]), 6:{5, 9}, 7:set([1]), 8:set([3]), 9:{3,6}}
 np.set_printoptions(threshold=sys.maxsize)
 
+#print("hello")
+
 #pix = idx2numpy.convert_from_file('data/train-images-idx3-ubyte')
 #with open("mnist_pics.txt", "w+") as writer:
 #    writer.write(str([int(''.join(["1" if i>127 else "0" for i in np.concatenate(j).ravel()]), 2) for j in pix]))
